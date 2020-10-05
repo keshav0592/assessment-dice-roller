@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 850px;
+    margin: 0% auto;
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#submitButton{
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#shapes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#die{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: silver;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 10px; 
+    margin-top: 50px;
+    font-size: 20px;
+   
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+button{
+    font-size: 15px;
+
+}
+#userInput {
+    font-size: 20px;
+}
+
+#numRolls{
+    font-size: 15px;
+}
+#dieSides{
+    font-size: 15px;
+}
+
+#displayRoll{
+  
+    text-align: left;
+    justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+</head>
+<body>
+    <main>
+        <h1>Dice Roller</h1>
+        <div id="userInput">
+            <label for="roll">Enter a number of rolls: </label>
+            <input type="number" name="num" min="1" max="10" id="numRolls" placeholder="Rolls">
+           <input type="number" min="4" max="20" id="dieSides" placeholder="sides"/>
+            <button id="rollButton" type="submit">Roll Me!</button>
+        </div>
+        <p> Total:  <span id="displayRoll"></span> </p>
+        
+        <div> 
+            <button id="displayAll"type="submit">Show All Rolls</button>
+            <button id="reset">Reset</button>
+        </div>
+        <ol id="displayingAll"></ol>
+        <div id="shapes"></div>
+    </main>
+    <script src="./assets/javascript/dice.js"></script>
+</body>
+</html>
